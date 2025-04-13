@@ -7,8 +7,8 @@ public class Main {
         List<Programmer> programmers = List.of(new Programmer("Jack", 18, 200000), new Programmer("Max", 20, 500000),
                 new Programmer("Max", 26, 600000));
         List<Programmer> list = programmers;
-        List<String> list1 =
-
+        List<String> list1 = List.of ("hjkj","hjkj","ghkjh","hjklj")
+        numberOfCoinsidance(list1, "ghghjhg");
 
     }
 
