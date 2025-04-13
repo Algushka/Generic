@@ -1,7 +1,7 @@
-public class Programmer {
-    String name;
-    int age;
-    int salary;
+public class Programmer extends Employee {
+    private String name;
+    private int age;
+    private int salary;
 
     public Programmer(String name, int age, int salary) {
         this.name = name;
@@ -37,8 +37,8 @@ public class Programmer {
     public String toString() {
         return "Programmer{" +
                 "name='" + name + '\'' +
-                ", age='" + age + '\'' +
-                ", salary='" + salary + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
                 '}';
     }
 }
