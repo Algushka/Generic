@@ -16,7 +16,7 @@ size++;
     }
     private void enlarge(){
         if (size>elements.length) {
-            Object[] copyOfElements= Arrays.copyOf(elements,elements.length*2)
+            Object[] copyOfElements= Arrays.copyOf(elements,elements.length*2);
             elements=copyOfElements;
 
         }
