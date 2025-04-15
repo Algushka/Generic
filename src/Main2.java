@@ -24,5 +24,13 @@ managers.addWorkers(new Programmer ("Olga", 45, 700000));
         managers1.addWorkers(new QAEngineer("Olga", 45, 700000));
         System.out.println(managers1);
 
+        List <BackEndProgrammer> backEndProgrammers = new ArrayList<>();
+        backEndProgrammers.add(new BackEndProgrammer("Petr", 20, 30000));
+        backEndProgrammers.add(new BackEndProgrammer("Max", 4, 20000));
+        backEndProgrammers.add(new BackEndProgrammer("Nina", 30, 15000));
+        Manager <BackEndProgrammer> managers2 = new Manager <BackEndProgrammer>(backEndProgrammers);
+        managers2.addWorkers(new BackEndProgrammer("Olga", 45, 700000));
+        System.out.println(managers2);
+
     }
 }
